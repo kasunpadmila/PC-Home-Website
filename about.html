@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css ">
+<link rel="Javascript"  href="D:\RUSL 2ND YEAR 1 SEMESTER\Web project\Javascript.js">
+</head>
+<body>
+  
+
+    <div class="container">
+        <div class="navbar"> 
+
+            <div class="logo">
+                <image src="Images\pchome.png" width="140px" ></image> 
+                
+            </div>
+             <nav>
+                <ul id="MenuItems">
+                    <li><a href="pchome.html">Home</a></li> 
+                   <li><a href="component.html">Components</a></li> 
+                   <li><a href="about.html">About</a></li> 
+                   <li><a href="contact.html">Contact</a></li> 
+                   <li><a href="account.html">Account</a></li> 
+                </ul>
+             </nav>  
+             <a href="cart.html"><img src="Images\cart.png" width="30px" height="30px"> </a>
+             <img src="Images\menu.png" width="30px" height="30px" class="menu-icon" margin-left="5px" 
+             onclick="menutoggle()"> 
+         
+        </div>
+          
+    </div>
+    <div class="container about">
+   <h2>Welcome to PC HOME (PVT) Ltd</h2>
+<p>In 1994, at Unity Plaza, the first computer shop PC HOME PVT LTD which transformed the shopping mall in to an IT mall now head quarter at No. 42, Galle Road, Colombo-04, Sri Lanka selling and servicing computers and accessories through retail outlets, direct sales, cooperate sales, distribution and online to the nation with the pride of unmatched after sales service with over well experience employees.
+Barclays is the sole distributor for leading international brand - Cooler Maser Computer Casings and Power supplies, A4 Tech - Computer Accessories, ADATA - data storage products, Must - UPS, Ezy Cool - computer casings, Targus - Laptop bags and accessories, Sproteck - Computer Toolkits, V Com - High quality computer cables and networking products, Belkin- power strips, ASUS computer hardware component.We assemble
+custom made Megabox PC for home, office server or for gaming configuring for best performance to meet customer need. Barclays is a genuine channel reseller for Intel,Microsoft, HP,Dell, Samsung, Lenovo and Acer too
+Our vision is to provide the "Best sales and service experience" to our customers.</p>
+ 
+</div>
+
+
+<!---------footer---------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Having a creative team of people who understand the art of elite system building and maintenance. A real gaming PC must be focused on Customization, Our Technical team will assist gamers to build their dreaming Monster as per their budget and choices. Our retail showroom is an open paradise for gamers where they can feel the quality and performance of any component or they can visit our dedicated online store.
+
+                    We are Gamers, we are here to provide you the Best.</p>
+                    <div class="app-logo">
+                        <img src="Images\gp.png">
+                        <img src="Images\appstore.png">
+                    </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="Images\pchome.png">
+                <p>PC HOME is the most prestigious Gaming Store in Sri Lanka, delivers the best gaming experience by providing top-end Technology the gaming industry has to offer.</p>
+
+            </div>
+            <div class="footer-col-3">
+                <h3>Usefull Links</h3>
+               <ul>
+                <li>Warenty Policy</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiatate</li>
+               </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Usefull Links</h3>
+               <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instegram</li>
+                <li>YouTube</li>
+               </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="c">
+            <p>All Rights Reserved © 2022 Pc Home | Designed & Developed By - CeyNet Software Solutions</p>
+             
+        </div>
+    </div>
+</div>
+<!----js for toggle menu----->
+
+<script>
+
+
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        } 
+        else 
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+    </script>
+    
+     
+    
+
+</body>
+</html>
+
+
+  
+
